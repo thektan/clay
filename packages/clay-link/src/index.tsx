@@ -36,7 +36,7 @@ const FONT_WEIGHTS = {
 	'semi-bold': 'font-weight-semi-bold',
 };
 
-interface IProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface IProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 	/**
 	 * Renders the button as a block element.
 	 */
